@@ -1,0 +1,169 @@
+/*.公司简介*/
+.contact_middle_left{width:820px;float: left;min-height:300px;}
+.company_brief_dl{overflow: hidden;margin-top:30px;background-color:#efefef;padding:15px;}
+.company_brief_dl>*{float: left;}
+.company_brief_dl>dt{width:428px;margin-right:20px;}
+.company_brief_dl>dd{width:340px;font:12px/22px SimSun;margin-top:10px;}
+.text_index24{text-indent: 24px;}
+
+.company_brief_team{margin-top:50px;}
+.company_brief_team_btns{overflow: hidden;padding:0 45px;}
+.company_brief_team_btns>li{width:151px;height:60px;background:url(../images/contact/pinpai.jpg) no-repeat center center;font-size:16px;color:#fff;float: left;padding-top:105px;text-align: center;line-height: 22px;cursor: pointer;}
+.marginR130{margin-right: 130px;}
+.company_brief_team_contain{margin-top:20px;position: relative;left:0;top:0;z-index: 0;}
+.company_brief_team_contain>li{font:12px/22px SimSun;padding:25px 20px;border:1px solid #cccccc;height:66px;overflow: hidden;display:none;width:780px;}
+.company_brief_team_contain .current_teacher_word{display: block;}
+.current_teacher_word_i{width:30px;height:12px;background:url(../images/contact/hover_arrow.jpg) no-repeat center center;position: absolute;top:-11px;left:110px;}
+
+.video{margin-top:45px;padding:20px 70px 40px;background-color:#efefef;text-align: center;}
+.video_title{font-size:20px;color:#000;line-height: 35px;}
+.video_title_add{font-size:14px;color:#bababa;margin-bottom: 15px; }
+.video_contain{width:667px;height:376px;}
+.video_contain body{margin:0;}
+
+/*企业文化*/
+.company_culture{margin:20px 0 40px;}
+.fs20{font-size: 20px;}
+.fs16{font-size: 16px;}
+.company_culture_block{color:#fff;overflow: hidden;margin-bottom: 50px;}
+.company_culture_block>li{float: left;background-position: center center;background-repeat: no-repeat;text-align: center;overflow:hidden; }
+.w241{width:241px;}
+.h136{height:96px;padding-top:40px;}
+.w191{width:190px;}
+.h116{height:76px;padding-top:40px;}
+.culture_block_bg1blue{background-color:#7dbdff;}
+.culture_block_bg2red{background-color:#ff87a6;}
+.culture_block_bg3purple1{background-color:#4c4987;}
+.culture_block_bg4purple2{background-color:#a2afd9;}
+.culture_block_img1{background-image: url(../images/contact/culture_1.jpg);}
+.culture_block_img2{background-image: url(../images/contact/culture_2.jpg);}
+.culture_block_img3{background-image: url(../images/contact/culture_3.jpg);}
+.culture_block_img4{background-image: url(../images/contact/culture_4.jpg);}
+.marginB3{margin-bottom: 3px;}
+.marginR3{margin-right: 3px;}
+
+.marginR30{margin-right:30px;}
+.company_culture_block_dl{overflow: hidden;height:148px;overflow: hidden;padding:40px 0;border-bottom: 1px solid #dadada;}
+.floatL{float: left;}
+.floatR{float: right;}
+.company_culture_block_dl>dt{overflow: hidden;width:275px;height:148px;}
+.company_culture_block_dl>dd{overflow: hidden;width:515px;height:148px;}
+.company_culture_block_dl>dd>p{font:12px/28px SimSun;}
+.company_culture_block_dl>dd>div{height:25px;}
+.company_culture_block_dl>dd .bar{width:43px;height:5px;border-radius:2px;display: inline-block;}
+.bar_color_blue{background-color:#839bb7;}
+.bar_color_red{background-color:#ff87a6;}
+.bar_color_dblue{background-color:#4c4987;}
+.company_culture .borderBno{border-bottom: none;}
+
+
+/*品牌标志*/
+.company_logo{margin:30px 0 80px;}
+.company_culture_block>ul{overflow: hidden;}
+.company_culture_block>ul>li{float: left;}
+.logo_detail{width:395px;padding:290px 20px 30px ;background:#d7000f url(../images/contact/log_block_img2.jpg) no-repeat center 35px;height:148px;line-height: 22px;font-size: 14px;overflow: hidden;}
+
+/*战略伙伴*/
+.company_parter{margin:20px 0 60px;overflow: hidden;}
+.company_parter>*{float: left;}
+
+.parter_fan{position: relative;left:0;top:0;z-index: 0;width:406px;height:407px;}
+.parter1_fan{width:406px;height:407px;line-height: 407px;font-size:64px;color:#fff;text-align: center;background-color:#edba38;display: inline-block;}
+.fan_children_stand{position: absolute;left:0;top:0;height:100%;width:406px;opacity: 1;filter:alpha(opacity=100);}
+.fan_children_move{position: absolute;left:0;top:203px;height:0;width:406px;opacity: 0;filter:alpha(opacity=0);}
+
+.parter2{overflow: hidden;width:409px;}
+.parter2>*{float: left;width:202px;height:202px;overflow: hidden;}
+.parter2 .fan_children_stand{position: absolute;left:0;top:0;height:100%;width:202px;opacity: 1;filter:alpha(opacity=100);}
+.parter2 .fan_children_move{position: absolute;left:0;top:101px;height:0;width:202px;opacity: 0;filter:alpha(opacity=0);}
+.fan_children_move_word{padding:50px 10px 10px;font:12px/20px SimSun;}
+
+.parter_fan2{position: relative;left:0;top:0;z-index: 0;}
+.parter_fan2_move{position: absolute;left:0;top:0;}
+.parter_fan2_move_word{height:30px;color:#000;font-size: 14px;line-height: 30px;padding-left:5px;}
+
+.marginR5{margin-right:5px;}
+.marginB3{margin-bottom:3px;}
+
+/*办公环境*/
+.company_environment{margin-top:40px;background-color:#efefef;position: relative;left:0;top:0;z-index: 0;}
+.environment_btn{overflow: hidden;padding:55px 40px 30px;}
+.environment_btn>li{float: left;width:100px;height:45px;line-height: 45px;text-align: center;color:#000;background-color:#fff;font-size: 14px;cursor: pointer;}
+.environment_btn .current_btn{background-color:#d7000f;color:#fff;}
+
+.environment_contain_imgs{width:659px;height:349px;overflow: hidden;position: relative;left:0;top:0;z-index:0;margin:0 auto;padding-bottom: 40px;}
+.environment_contain_imgs>li{display: none;overflow: hidden;}
+.environment_contain_imgs .current_environment{display: block;}
+.environment_contain_imgs>li>img{display: none;}
+.environment_contain_imgs>li .show_img{display: block;}
+
+
+.environment_scroll_btn{position: absolute;left:0;bottom:0;width:100%;height:100%;z-index:-1;padding-right:1px;}
+.environment_scroll_btn>span{position: absolute;top:50%;width:40px;height:86px;opacity: 0.7;fliter:alpha(opacity=70);cursor: pointer;}
+.environment_scroll_btn>span:hover{opacity: 1.0;fliter:alpha(opacity=100);}
+.environment_pren{background:url(../images/contact/environment/pren.jpg);left:15px;}
+.environment_next{right:15px;background:url(../images/contact/environment/next.jpg);}
+
+/*联系我们*/
+.company_link_us{margin-top:30px;margin-bottom: 50px;}
+.company_link_us_map{width:100%;height:476px;margin-bottom: 30px;}
+.company_link_us_detail_title{color:#d7000f;font-size: 20px;line-height: 50px;height:50px;}
+.company_link_us_detail_contain{color:#333;font-size: 14px;line-height: 40px;padding-left:30px;background-position: left center;background-repeat: no-repeat;}
+.link_place{background-image: url(../images/contact/link_ip.jpg);}
+.link_zip{background-image: url(../images/contact/link_zip.jpg);}
+.link_email{background-image: url(../images/contact/link_email.jpg);}
+.link_tel{background-image: url(../images/contact/link_tel.jpg);}
+
+/*招贤纳士*/
+.company_personnel{margin-top:30px;background:#efefef;padding:30px 50px;}
+.company_personnel_btn{overflow: hidden;}
+.company_personnel_btn>li{float: left;font-size: 16px;color:#b06c00;width:90px;padding-left:38px;height:53px;line-height: 53px;background-color:#fdbe5b;}
+.company_personnel_btn>li>p{width:90px;text-align: center;background-color:#ffc770;}
+.company_personnel_btn .company_personnel_btn_curent{color:#fff;background-color:#d90d1b;}
+.company_personnel_btn .company_personnel_btn_curent>p{background-color:#b2000d;}
+
+.company_personnel_btn_bg1{background: url(../images/contact/personel_1.png) no-repeat 5px center;}
+.company_personnel_btn_bg2{background: url(../images/contact/personel_2.png) no-repeat 5px center;}
+.company_personnel_btn_bg3{background: url(../images/contact/personel_3.png) no-repeat 5px center;}
+.company_personnel_btn_bg4{background: url(../images/contact/personel_4.png) no-repeat 5px center;}
+.company_personnel_btn_bg5{background: url(../images/contact/personel_5.png) no-repeat 5px center;}
+.marginR20{margin-right:20px;}
+
+.company_personnel_contain>li{display: none;}
+.jobs_part1_block{border-bottom:1px solid #dbdbdb;padding-bottom:20px; }
+.jobs_part1_h3{font-size: 20px;line-height: 45px;color:#d7000f;height:45px;margin-top:20px;}
+.jobs_part1_p{font-size: 14px;color:#333;line-height: 24px;}
+.jobs_next_button{width:190px;height:55px;line-height: 55px;background-color:#346cb0;font-size: 20px;color:#fff;text-align: center;margin:auto;display: block;border:none;margin-top:20px;}
+
+.personnel_process{height:1080px;background:#efefef url(../images/contact/personel_yingpinliucheng.jpg) no-repeat center center;}
+
+.personnel_concept{padding:80px 0 50px;}
+.inner_personnel_concept{height:530px;background:url(../images/contact/personel_tree.jpg) no-repeat 180px 100px;overflow: hidden;}
+.inner_personnel_concept>ul{width:245px;margin-right:20px;}
+.floatL{float: left;}
+.floatR{float: right;}
+.personnel_concept_title{background-color: #d80012;color:#fff;font-size: 16px;line-height:26px;height:26px;display: inline-block; padding:0 5px;margin-bottom: 10px;}
+.personnel_concept_detail{color:#5f5f5f;font-size: 14px;line-height: 26px;margin-bottom: 70px;}
+.marginT60{margin-top:60px;}
+
+.personnel_salary{height:1000px;background:url(../images/contact/daiyu.jpg) no-repeat center center;}
+
+.personnel_career{background:url(../images/contact/fuli.jpg) no-repeat center center; height:800px;}
+
+/*陕金所介绍*/
+.company_brief2{margin-top:30px;}
+.company_brief2_dl{overflow: hidden;}
+.company_brief2_dl>*{float: left;}
+.company_brief2_dl>dt{width:296px;margin-right:20px;}
+.company_brief2_dl>dd{width:500px;font:12px/22px SimSun;margin-top:10px;}
+
+/*股东背景*/
+.shareholde{font:12px/22px SimSun;margin-top:45px;}
+
+
+/*中心资质*/
+.centerQU{height:600px;padding-top:45px;}
+.centerQU_img{position: relative;left:0;top:0;background:red;width:234px;margin:auto;cursor: pointer;}
+.centerQU_bg_blue{position: absolute;left:0;top:0;width:100%;height:100%;opacity: 0.85;filter:alpha(opacity=85);z-index: 1;display: none;}
+.centerQU_bg_glass{position: absolute;left:0;top:0;z-index: 2;width:100%;color:#fff;font-size: 16px;text-align: center;padding-top:100px;display: none;}
+.centerQU_show_big_img{text-align:center;display: none;}

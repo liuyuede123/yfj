@@ -1,0 +1,108 @@
+/*产品介绍*/
+.product2_btn{height:60px;background-color:#d7000f;padding-left:44px;margin-bottom:20px; }
+.product2_btn:after{content:'';display: block;width:0;visibility: hidden;clear:both;}
+.product2_btn>span{float: left;height:60px;line-height:60px;color:#fff;background-color:#f7313f;width:228px;margin-right:25px;text-align:center;font-size: 16px;}
+.product2_btn .current_product2_btn{background-color:#ffcd34;color:#d7000f;position: relative;left:0;top:0;z-index:0;}
+.product2_btn .current_product2_btn:after{content:'';width:0;position: absolute;left:50%;margin-left:-10px;bottom:-7px;border-left:10px solid transparent;border-right:10px solid transparent;border-top:7px solid #ffcd34; }
+
+.product2_btn_descript{overflow: hidden;margin-bottom: 65px;}
+.product2_btn_descript>li{float: left;margin-right:33px;width:245px;}
+.product2_btn_descript .product3_btn_descript_li_width{width:180px;}
+
+.product2_btn_descript_img{height:160px;border:1px solid #d50000;background-color:#b3b3bf;background-position: center center;background-repeat: no-repeat;position: relative;left:0;top:0;z-index:0;width:243px;margin-bottom: 13px;overflow: hidden;}
+
+.product3_btn_descript_img{height:170px;width:178px;}
+.updownRed{width:100%;height:8px;background-color:#d50000;position: absolute;left:0;bottom:0;z-index:100;}
+
+
+.jubixi_img1{background-image:url(../images/product/jubixi1.jpg);}
+.jubixi_img2{background-image:url(../images/product/jubixi2.jpg);}
+.jubixi_img3{background-image:url(../images/product/jubixi3.jpg);}
+
+.yinjinkuang1{background-image:url(../images/product/yinjinkuang1.jpg);}
+.yinjinkuang2{background-image:url(../images/product/yinjinkuang2.jpg);}
+.yinjinkuang3{background-image:url(../images/product/yinjinkuang3.jpg);}
+
+.chuangshangtong1{background-image:url(../images/product/chuangshangtong1.jpg);background-color:#fff;}
+.chuangshangtong2{background-image:url(../images/product/chuangshangtong2.jpg);background-color:#fff;}
+
+.chuangshangyin1{background-image:url(../images/product/chuangshangyin1.jpg);background-color:#fff;}
+.chuangshangyin2{background-image:url(../images/product/chuangshangyin2.jpg);background-color:#fff;}
+.chuangshangyin3{background-image:url(../images/product/chuangshangyin3.jpg);background-color:#fff;}
+.chuangshangyin4{background-image:url(../images/product/chuangshangyin4.jpg);background-color:#fff;}
+
+.chuangshangyou1{background-image:url(../images/product/chuangshangyou1.jpg);background-color:#f3f4f8;}
+.chuangshangyou2{background-image:url(../images/product/chuangshangyou2.jpg);background-color:#f3f4f8;}
+.chuangshangyou3{background-image:url(../images/product/chuangshangyou3.jpg);background-color:#f3f4f8;}
+.chuangshangyou4{background-image:url(../images/product/chuangshangyou4.jpg);background-color:#f3f4f8;}
+
+.product2_btn_descript_img_word{font-size:12px;line-height: 20px;position: absolute;left:50%;margin-left:-108px;bottom:50%;width:222px;z-index:6;overflow: hidden;color:#000;display: none;}
+.product3_btn_descript_img_word{color:#fff;width:160px;margin-left:-70px;}
+
+.product2_btn_descript_word{width:100%;height:34px;line-height: 34px;color:#fff;background-color:#d50000;text-align:center;font-size: 16px;}
+.product2_btn_descript .marginRnone{margin-right:0;}
+
+
+.product2_btnSection_title{height:38px;position: relative;left:0;top:0;z-index:0;margin-bottom: 10px;}
+.product2_btnSection_title>i{width:5px;height:5px;border-radius: 50%;background-color:#d50000;position: absolute;top:50%;margin-top:-3px;}
+.product2_btnSection_title_pre{left:0;}
+.product2_btnSection_title_next{right:0;}
+.product2_btnSection_title_line{width:100%;height:1px;background-color:#d50000;position: absolute;left:0;top:48%;z-index:1;}
+.product2_btnSection_title>p{width:121px;height:34px;border:1px dashed #d50000;line-height: 34px;text-align:center;position: absolute;top:0;left:50%;margin-left:-61px;background-color:#fff;z-index:2;font-size:18px; color:#d50000;}
+
+.product_agreenment_table{font-size: 14px;vertical-align: middle;border-top:1px solid #d9d9d9;border-left:1px solid #d9d9d9;width:820px;}
+.product_agreenment_table td{height:55px;vertical-align: middle;text-align: center;border-right:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;}
+.tb_bg{background-color:#f1f1f1;}
+
+.product_agreenment_tables>li{display: none;}
+.product_agreenment_tables .show{display: block;}
+
+.product_agreenment_tables{*margin-top:30px;}
+
+.product_mask{width:100%;height:100%;background-color:#fff;opacity: 0.8;filter:alpha(opacity=80);position: absolute;left:0;top:0;z-index:0;display: none;z-index:5;}
+.product3_mask{background-color:#d50000;width:168px;height:150px;left:5px;top:7px;color:#fff;}
+.product2_btn_contain>div{display: none;}
+.product2_btn_contain .appear{display:block;}
+.product2_btnScontain{margin-bottom: 60px;}
+/*产品优势*/
+.product_advantage{margin:40px 0 100px;padding-top:20px;}
+.product_advantage_li{position: relative;left:0;top:0;z-index: 0;margin-bottom:45px; }
+.img_left{left:0px;text-align: left;}
+.img_right{right:10px;text-align: right;}
+.bg_img{position: absolute;top:-25px;width:300px;height:45px; line-height: 45px;font-size: 20px;font-weight: bold;color:#fff;}
+.bg_img>span{display: inline-block;padding:0 15px;}
+.bg_img_no{border-radius:50%;}
+.bg_img .bg_img_word{border-radius:5px;height:35px;line-height: 35px;margin-left:-15px;}
+
+.bg_img .color1{background-color:#426590;}
+.bg_img .color2{background-color:#4578b6;}
+.bg_img .color3{background-color:#46c292;}
+.bg_img .color4{background-color:#426590;}
+.bg_img .color5{background-color:#4578b6;}
+.bg_img .color6{background-color:#edba38;}
+.bg_img .color7{background-color:#426590;}
+
+
+.product_advantages{border:1px dashed #426590;padding:35px 20px 20px;color:#333;font:12px/20px SimSum;border-radius:3px;width:755px;margin:auto;}
+
+/*资金安全*/
+.product_safe{margin:40px 0 100px;}
+.product_safe_li{padding:17px 150px 17px 100px;background-position: 20px center;background-repeat: no-repeat;background-color:#ffd8d9;font-size:14px;line-height: 24px;color:#666;margin-bottom: 30px;}
+.product_safe_li>h4{font-size:18px;line-height: 30px;color:#d7000f;}
+.safe_img1{background-image: url(../images/product/iocn1.jpg);}
+.safe_img2{background-image: url(../images/product/iocn2.jpg);}
+.safe_img3{background-image: url(../images/product/iocn3.jpg);}
+.safe_img4{background-image: url(../images/product/iocn4.jpg);}
+
+/*风险提示*/
+.product_tip{margin:40px 0 80px;}
+
+.product_tip_p1{padding:10px 15px;font-size: 14px;line-height: 26px;background-color:#fb8d02;color:#fff;margin-bottom: 30px;}
+.product_tip_p2{margin-bottom:50px;}
+.product_tip_p2>h3{font-size: 18px;line-height: 35px;color:#d7000f;margin-bottom: 10px;}
+.product_tip_p2_ul>li{padding-left:30px;background:url(../images/product/yuan.jpg) no-repeat 5px center;font-size: 14px;color:#333;line-height: 26px;}
+.product_tip_p3{padding-left:370px;background:url(../images/product/tu1.jpg) no-repeat left center;height:207px;}
+.product_tip>dl{margin-bottom: 65px}
+.product_tip>dl>dt{color:#d7000f;font-size:18px; font-weight: bold;height:30px; }
+.product_tip>dl>dd{font-size: 14px;color:#333;line-height: 28px;margin-bottom: 30px;}
+.product_tip_p4{padding-right:360px;background:url(../images/product/tu2.jpg) no-repeat right top;height:207px;}

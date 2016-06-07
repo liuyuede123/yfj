@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 <meta name="renderer" content="webkit">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<link rel="stylesheet" href="index.css">
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="util.js"></script>
+    <!--日期选择所依赖的css库-->
+   
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="bd">
+	<div class="bdUp">
+		<div class="bdUpInputOK">
+			<!--<img src="images/ok.png" alt="" class="okImg">-->
+			<div class="bdUpInputOKWord">
+				<p class="fontB lineb">请保持手机畅通,我们将安排投资顾问给您回电！</p>
+				<p class="wds">或致电400-619-0099与投资顾问家一对一及时交流！</p>
+				<span class="bdUpInputOKBtn">再测一次</span>
+			</div>
+
+		</div>
+		<div class="bdUpInput">
+			<div class="inputNumWord">
+				<span>个股孰优孰劣？</span>
+				<span class="fontB">随问随答！</span>
+			</div>
+			<div class="inputNum top_search"><!-- top_search  -->
+				<span>股票代码</span>
+				<input type="text" name="name" id="theSearchInput" value="请输入股票代码" onFocus="if(this.value=='请输入股票代码'){this.value=''}" onBlur="if(this.value==''){this.value='请输入股票代码'}">
+				<div class="search_tips"><ul></ul></div> <!--  new add  -->
+			</div>
+			<div class="inputNum">
+				<span>电话号码</span>
+				<input type="text" name="phone" id="" value="请输入电话号码" onFocus="if(this.value=='请输入电话号码'){this.value=''}" onBlur="if(this.value==''){this.value='请输入电话号码'}">
+			</div>
+			<input type="hidden" name="title" value="股票代码">
+		</div>
+		<!-- new add start -->
+		<div class="clearfix" id="panel">
+			<div class="nav_sub" id="nav_sub"></div>
+			<div class="sidebar" id="sidebar"></div>
+			<div class="nav_tab" id="nav_tab"></div>
+			<div class="gridster" id="data_panel"></div>
+		</div>
+		<!-- new add end-->
+		<div class="bdUpRusult">
+			<div class="bdUpRbg1">
+				<div class="bdUpRbg2">
+					<span>当前诊断股票:</span>
+					<div class="outerBdUpRusultUl">
+						<ul class="bdUpRusultUl">
+							<li>
+								<span>600004</span>
+								<span>600004</span>
+								<span>600004</span>
+								<span>600004</span>
+								<span>600004</span>
+								<span>600004</span>
+							</li>
+							<li>
+								<span>600005</span>
+								<span>600005</span>
+								<span>600005</span>
+								<span>600005</span>
+								<span>600005</span>
+								<span>600005</span>
+							</li>
+							<li>
+								<span>600007</span>
+								<span>600007</span>
+								<span>600007</span>
+								<span>600007</span>
+								<span>600007</span>
+								<span>600007</span>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+			<ul class="bdUpRusultNum">
+				<li><span>已有</span><span class="colorR">&nbsp1181111133人&nbsp</span><span>诊断</span></li>
+				<li><span>已诊断</span><span class="colorR">&nbsp81111631只&nbsp</span><span>股票</span></li>
+			</ul>
+		</div>
+		<div class="bdUpBtn" id="bdUpBtnid">
+			<span class="bdUpBtn1"></span>
+			<span class="bdUpBtn2"></span>
+			<span class="bdUpBtn3"></span>
+		</div>
+	</div>
+	<div class="bdDown">
+		<div class="bdDown1">
+			<span class="bdDownIMG"></span>
+		</div>
+		<div class="bdDownIMGleft">
+			<div class="bdDownIMGright">
+				<p>白银投资，T+0操作，双向收益，收益机会翻倍！</p>
+			</div>
+		</div>
+		<div class="bdDownA">
+			<a href="javascript:;">返回直播室</a>
+		</div>
+		<div class="bdDownLast">入市有风险，投资需谨慎</div>
+	</div>
+	<span class="line line1"></span>
+	<span class="line line2"></span>
+</div>
+ <!-- footer -->
+<iframe id="analysisFrame" src="analysis.html" style="display:none;"></iframe>
+<!-- 右侧浮动栏 begin -->
+<script type="text/javascript" src="suggestServer.js"></script>
+<div id="nimei" style="display:none;"></div>
+<script>
+	$(function(){
+		// 数据滚动定时器
+		var bdUpRusultLiFirst = $('.bdUpRusultUl>li').first();
+		$(bdUpRusultLiFirst).clone().appendTo($('.bdUpRusultUl'));
+		
+		var timer = null;
+		timer = setInterval(runUp,300)
+		
+		var num = 0;
+		var bdUpRusultLiLength = $('.bdUpRusultUl>li').length;
+		var bdUpRusultLiHeight = $('.bdUpRusultUl>li').height();
+		var runLength = (bdUpRusultLiLength-1) * bdUpRusultLiHeight ;
+		function runUp(){
+			num += 2;
+			if(num > runLength){ num = 0};
+			$('.bdUpRusultUl').css('top',-num);
+		}
+		$('.bdUpRusultUl').hover(function(){
+				clearInterval(timer);
+			},function(){
+				clearInterval(timer);
+				timer = setInterval(runUp,300);
+		});
+
+		// 返回直播室关闭窗口按钮
+		$('.bdDownA>a').click(function(){
+			parent.document.getElementById('dialog').style.display='none';
+			parent.document.getElementById('mask').style.display='none';
+		})
+
+		$('.bdUpInputOKBtn').click(function(){
+			$('.bdUpInputOK').hide();
+			$('input[name=name]').val("请输入股票代码");
+			$('input[name=phone]').val("请输入电话号码");
+			$('.inputNum').show();
+			$('.inputNumWord').show();
+		})
+	})
+	
+	function GetRequest() {
+	   var url = location.search; //获取url中"?"符后的字串
+	   var theRequest = new Object();
+	   if (url.indexOf("?") != -1) {
+	      var str = url.substr(1);
+	      strs = str.split("&");
+	      for(var i = 0; i < strs.length; i ++) {
+	         theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);
+	      }
+	   }
+	   return theRequest;
+	}
+	
+	/*function checkMobile(phone){ 
+    var sMobile = phone; 
+    if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(sMobile))){ 
+        alert("请输入有效的手机号"); 
+        return false; 
+    } 
+} */
+	
+</script>
+</body>
+</html>
+
+

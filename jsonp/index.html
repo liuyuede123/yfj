@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<title></title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<script src="jquery-1.11.2.min.js"></script>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+// 获取投资组合信息
+/*$.ajax({
+	url:'http://api.htcjzb.com/jsonp.php?callback=person',
+	dataType : "jsonp",
+   	jsonp: 'callback',
+   	jsonpCallback: "person"
+		
+});*/
+
+function person(a){
+	//$.parseJSON(a);
+	console.log(a);
+}
+
+/*var src = 'http://api.htcjzb.com/speciarecord?callback=person';
+function addScriptTag(src){
+	var script = document.createElement('script');
+	script.setAttribute("type","text/javascript");
+	script.src = src;
+	document.body.appendChild(script);
+}
+
+window.onload = function(){
+//调用远程服务
+addScriptTag(src);
+
+}
+//回调函数person
+function person(data) {
+alert(data);
+}*/
+var url = location.href;
+var regex = /.*\:\/\/([^\/]*).*/;
+        var match = url.match(regex);
+		console.log(url);
+		console.log(match);
+        if(typeof match != "undefined" && null != match) host = match[1];
+        alert(host);
+		
+</script>
+

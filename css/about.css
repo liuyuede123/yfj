@@ -1,0 +1,93 @@
+/*banner*/
+.middle_about{overflow: hidden;padding-top:45px;width:1000px;margin:auto;min-height:485px;}
+/*.左边*/
+.about_middle_left{width:820px;float: left;min-height:300px;}
+.about_left_head{overflow: hidden;height:40px;border-bottom: 1px solid #e1e1e1;}
+.about_left_head_left{float: left;}
+.about_left_head_left_h{color:#000;font-size: 22px;font-weight: bold;}
+.about_left_head_left_p{font-size: 16px;color:#e1e1e1;}
+.about_left_head_right{float: right;}
+.about_left_head_right{color:#d0d0d0;font:12px/24px SimSun;}
+.about_left_head_right>a{color:#d0d0d0;}
+
+.about_left_contain{padding:20px 0;}
+
+
+
+/*右边*/
+.about_middle_right{width:180px;float: left;min-height:500px;}
+.about_right_title1{background:url(../images/about/right_nav_bg.png) no-repeat right top;}
+.about_word1{height:100px;color:#fff;font-size: 16px;line-height: 22px;padding-top:27px;padding-left:75px;text-align: center;padding-bottom: 15px;}
+
+.about_word3{text-align:right;padding-bottom: 22px;font-size: 14px;padding-right:47px;background:url(../images/about/right_line.png) no-repeat 128px 13px;margin-top:-5px;}
+
+.about_word3_nav{color:#bababa;position: relative;left:0;top:0;background:url(../images/about/not.png) no-repeat right center;padding-right:18px;position: relative;left:0;top:0;z-index: 0;padding-left:10px;}
+.about_word3_nav:hover{color:#d7000f;background-image: url(../images/about/curent.png);}
+.about_word3_nav:hover:after{content:'';display: inline-block;width:5px;height:9px;background:url(../images/about/left.png) no-repeat left center;position: absolute;left:0;top:5px;}
+
+.about_word3 .curent_about_word3_nav{color:#d7000f;background-image: url(../images/about/curent.png);}
+.curent_about_word3_nav:after{content:'';display: inline-block;width:5px;height:9px;background:url(../images/about/left.png) no-repeat left center;position: absolute;left:0;top:5px;}
+
+.about_right_title2{background:url(../images/about/right_nav_bg1.png) no-repeat right top;height:160px;}
+.about_word2{text-align:center;padding-left:80px;padding-top:36px;font-size: 16px;line-height: 18px;}
+.about_word2>a{color:#fff;}
+.songti{font-family: "SimSun";font-size: 12px;}
+
+/*右边 小标题*/
+li .about_word3_nav_small{background: url(../images/about/not_samll.png) no-repeat 70px 7px;}
+.about_right_title1_page .curent_about_word3_nav_small{background-image: url(../images/about/not_samll_hover.png);color:#d7000f;}
+.curent_about_word3_nav_small:after{content:'';display: inline-block;width:5px;height:9px;background:url(../images/about/left.png) no-repeat left center;position: absolute;left:0;top:5px;}
+.about_word3_nav_small:hover{background-image: url(../images/about/not_samll_hover.png);color:#d7000f;}
+.about_right_title1_page{padding-top:15px;display: none;}
+.about_word3_pages .appear{display: block;}
+.about_right_title1_page>li{padding-bottom:18px; background:url(../images/about/right_line.png) no-repeat 128px 13px;margin-top:-5px;}
+.about_right_title1 .paddingB0{padding-bottom: 0;}
+
+
+/*月刊*/
+.yuekan{overflow: hidden;}
+.yuekan_book{float: left;border:1px dashed #cecece;padding:7px;margin-bottom: 25px;width:168px;}
+.yuekan_book_img{width:168px;height:217px;overflow: hidden;margin-bottom:5px;}
+.yuekan_book_name{color:#000;height:30px;line-height: 30px;width:150px;padding:0 9px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;-o-text-overflow:ellipsis;display: inline-block;border-bottom: 1px solid #d0d0d0;}
+.yuekan_num{overflow: hidden;height:20px;line-height: 20px;width:100%;}
+.yuekan_numT{float: left;padding-left:18px;background:url(../images/yuekan/time.jpg) no-repeat left center;}
+.yuekan_numL{float: right;padding-left:18px;background:url(../images/yuekan/look.jpg) no-repeat left center;padding-right:2px;}
+.marginR27{margin-right:27px;}
+.yuekan_book_img>a{display: inline-block;width:100%;height:100%;}
+
+/*.行情数据*/
+.height790{height:600px;}
+
+/*行业新闻*/
+.trade_news_contain{min-height:300px;}
+.trade_news_contain_pages{overflow: hidden;}
+.trade_news_contain_pages_section>li{height:114px; padding:20px 0;padding-left:200px;border-bottom: 1px dashed #e1e1e1;}
+.trade_news_contain_pages_section>li>p{overflow: hidden;font:12px/20px SimSun;color:#6f6f6f;height:23px;line-height: 23px;}
+.news_page_a{float: left;color:#6f6f6f;max-width:405px;overflow: hidden;}
+.news_page_a:hover{color:red;}
+.news_page_time{float: right;}
+.bg1{background:url(../images/news/news_bg1.jpg) no-repeat left center;}
+
+
+.soft_loaddown_page{text-align: center;margin:20px 0;}
+.news_page_change_ul{overflow: hidden;display: inline-block;}
+.news_page_change_ul>li{float: left;padding:5px 10px;border:1px solid #999;margin:0 5px;}
+.news_page_change_ul>li>a{color:#666;}
+.news_page_change_ul>li>a:hover{font-weight: bold;}
+
+/*每日策略*/
+
+.plan_li_bg{background:url(../images/daily_plan/datail_plan_bg1.jpg) no-repeat left center;}
+.plan_li_dl>dt>a{color:#000; font-size: 20px;line-height: 35px;}
+.plan_li_dd_source{font:12px/30px SimSun;color:#6f6f6f;}
+.plan_li_dd_brief{font:12px/22px SimSun; color:#3e3e3e;height:44px;overflow: hidden;}
+.colorRed{color:#ff0909;}
+.goon_a{color:#ff0909;}
+
+/*文章内页*/
+.program_inner_page{margin-top:30px;}
+.program_page_title{color: #000;font-size: 20px;line-height: 35px;font-weight: normal;height:40px;}
+.program_page_time{font:12px/30px SimSun;color: #6f6f6f;}
+.program_page_word{color:#3e3e3e;font:12px/22px SimSun;}
+.program_page_word>p{margin-bottom: 20px;}
+.program_page_word .index2{text-indent: 24px;color:#000;}

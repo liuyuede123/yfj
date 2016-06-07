@@ -1,0 +1,51 @@
+.top_search .search_tips{
+	display:none;
+	width:280px;
+	max-height:400px;
+	overflow:hidden;
+	position:absolute;
+	top:41px;
+	background:#fff;
+	border:1px solid #c4cbcf;
+	left:260px;
+	z-index:81;
+}
+.top_search .search_tips ul li a{
+	display:block;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+	font-size:12px;
+	border-top:1px solid #f0f0f0;
+	cursor:pointer;
+}
+.top_search .search_tips ul li a:hover{
+	background:#EEF6FF;
+}
+
+table{border-collapse:collapse;width:100%;text-align:center;}
+table thead{background-color:#EEF6FF;font-size:15px;}
+table thead tr{height:40px;}
+table thead th,table thead td{border-right:1px solid #fff; text-align: right;}
+table thead span{display:inline-block; padding-right: 15px;}
+.gridster .box table thead span{padding-right:0;}
+table thead th span:hover{color:#0f8ee2;cursor:pointer;}
+table tbody td{padding:10px 0px 10px 0px;font-size:13px; text-align: right;}
+table tbody td span.del{display:block;width:17px;height:17px;margin:0 auto;background:url(http://i1.sinaimg.cn/cj/data_20140924/ico.png) no-repeat 0 -17px;cursor:pointer;}
+table tbody td span.del:hover{background-position:0 0;}
+table tbody tr:nth-child(n) td{background:#F7F7F7;}
+table tbody tr:nth-child(2n) td{background:#fff;}
+table tbody tr:hover > td{background:#eef6ff;}
+#SI_Sidebtns_Wrap table tbody tr td{padding:0;}
+#SI_Sidebtns_Wrap table tbody tr:first td{background:#eef6ff;color:#1e3c85;}
+.box_content table{text-align:left;}
+.box_content table thead{background-color:#fff;font-size:12px;}
+.box_content table thead tr{height:30px;}
+.box_content table th,.box_content table td{max-width:80px;height:30px;line-height:30px;font-size:12px;padding-top:0;padding-bottom:0;white-space:nowrap;text-overflow:ellipsis;word-break:keep-all;overflow:hidden;}
+
+/*用于处理页面顶部搜索*/
+.top_search div table td{
+    height:40px;
+    text-align: center;
+}
+
